@@ -1,6 +1,6 @@
 # Web-Dev
 
-##### The forth semester
+##### The fourth semester
 
 It'll be **my** favorite *discipline* <br> 
 
