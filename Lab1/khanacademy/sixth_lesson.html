@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+<head>
+    <title>CSS grouping elements</title>
+    <meta charset="utf-8">
+    <style>
+        .lovey-dovey {
+            color: red;
+        }
+        
+        #official-info {
+            background: rgb(230, 230, 230);
+            width: 70%;
+            height: 180px;
+            overflow-x: hidden;
+            overflow-y: auto ;
+            /* margin: 15px; */
+            margin: 15px 0px 10px 6px;
+            border: 2px dashed lightgray;
+            padding: 6px;
+        }
+        #cat {
+            width: 100px;
+            width: 100px;
+            margin-right: 18px;
+            margin-bottom: 10px;
+            border: 6px ridge red;
+        }
+
+        .container {
+            width: 400px;
+            margin: auto;
+            border: 1px solid red;
+            border-top: 10px solid purple;
+        }
+    </style>
+</head>
+<body>
+    <div class="container ">
+    <h1>All <div>About</div> Cats</h1>
+    <!-- span -> grouping element for text -->
+    <h3>Why I <span class="lovey-dovey">Love</span> Cats</h3>
+    <ul>
+        <li>Furry
+        <li>Cute
+        <li>Evil
+    </ul>
+    
+    <!-- Grouping element of varios type tags / devide the whole page to boxes for resize or move it-->
+    <div id="official-info"><h3>Official Info on Cats</h3>
+    <p><img id="cat" src="https://www.kasandbox.org/programming-images/animals/cat.png"> The cat (Felis catus), also known as the domestic cat or housecat to distinguish it from other felines and felids, is a small domesticated carnivorous mammal that is valued by humans for its companionship and ability to hunt vermin and household pests. Cats have been associated with humans for at least 9,500 years, and are currently the most popular pet in the world. Owing to their close association with humans, cats are now found almost everywhere on Earth.</p>
+    <p>Cats are similar in anatomy to the other felids, with strong, flexible bodies, quick reflexes, sharp retractable claws, and teeth adapted to killing small prey. As nocturnal predators, cats use their acute hearing and ability to see in near darkness to locate prey. Not only can cats hear sounds too faint for human ears, they can also hear sounds higher in frequency than humans can perceive. This is because cats' usual prey (particularly rodents such as mice) make high frequency noises, so cats' hearing has evolved to pinpoint these faint high-pitched sounds. Cats rely more on smell than taste, and have a vastly better sense of smell than humans.</p>
+    <p>Despite being solitary hunters, cats are a social species and use a variety of vocalizations, pheromones and types of body language for communication. These include meowing, purring, trilling, hissing, growling, and grunting.</p>
+    <p>Cats have a rapid breeding rate. Under controlled breeding, they can be bred and shown as registered pedigree pets, a hobby known as cat fancy. Failure to control the breeding of pet cats by spaying and neutering and the abandonment of former household pets has resulted in problems caused by large numbers of feral cats worldwide, with a population of up to 60 million of these animals in the United States alone.</p>
+    </div>
+    
+    Read more on <a href="http://en.wikipedia.org/wiki/Cat">Wikipedia</a>.
+    </div>
+</body>
+</html>
+
+
+
+<!-- Challenge: Group the groupers
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: Group the groupers</title>
+        <style>
+            .first-sentence {
+                font-weight: bold;
+                text-decoration:underline;
+            }
+            .info {
+                background-color:aqua;
+            }
+        </style>
+    </head>
+    <body>
+    
+        <h1>Groupers</h1>
+        <div class="info">
+        <p><span class="first-sentence">Groupers are teleosts (ray-finned fishes), typically having a stout body and a large mouth.</span> They can be quite large, and lengths over a meter and weights up to 100 kg are not uncommon, though obviously in such a large group, species vary considerably. They swallow prey rather than biting pieces off it. They do not have many teeth on the edges of their jaws, but they have heavy crushing tooth plates inside the pharynx. They habitually eat fish, octopuses, and crustaceans. Reports of fatal attacks on humans by the largest species, the giant grouper (Epinephelus lanceolatus) are unconfirmed.</p>
+
+        <p><span class="first-sentence">Their mouths and gills form a powerful sucking system that sucks their prey in from a distance.</span> They also use their mouths to dig into sand to form their shelters under big rocks, jetting it out through their gills. Their gill muscles are so powerful, it is nearly impossible to pull them out of a cave if they feel attacked and extend those muscles to lock themselves in.</p>
+        </div>
+        
+        <a href="http://en.wikipedia.org/wiki/Grouper">Read more on Wikipedia</a>
+
+    </body>
+</html>
+-->
+
+<!-- Challenge: The overflowing ocean
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: The overflowing ocean</title>
+        <style>
+            .info {
+                background: rgb(219, 235, 255);
+                width: 70%;
+                height: 200px;
+                overflow: auto;
+            }
+            .pic {
+                width:70%;
+            }
+        </style>
+    </head>
+    <body>
+    
+        <h1>The ocean</h1>
+        
+        <img class="pic" src="https://www.kasandbox.org/programming-images/landscapes/beach-in-hawaii.png" alt="Photo of rocky ocean beach in Hawaii">
+        
+        <div class="info">
+            <p>The <strong>ocean</strong> is the connected body of salty water that covers 70.8% of the Earth's surface. The sea moderates the Earth's climate and has important roles in the water cycle, carbon cycle, and nitrogen cycle. Although the sea has been travelled and explored since prehistory, the modern scientific study of the sea—oceanography—dates broadly to the British Challenger expedition of the 1870s. The sea is conventionally divided into four or five large sections, such as the Pacific, called oceans while smaller sections, such as the Mediterranean, are known as seas.
+            </p>
+            <p>
+    Owing to the present state of continental drift, the Northern Hemisphere is now fairly equally divided between land and sea (a ratio of about 2:3) but the South is overwhelmingly oceanic (1:4.7). Salinity in the open ocean is generally in a narrow band around 3.5% by mass, although this can vary in more landlocked waters, near the mouths of large rivers, or at great depths. About 85% of the solids in the open sea are sodium and chloride. Deep-sea currents are produced by differences in salinity and temperature. Surface currents are formed by the friction of waves produced by the wind and by tides, the changes in local sea level produced by the gravity of the Moon and Sun. The direction of all of these is governed by surface and submarine land masses and by the rotation of the Earth (the Coriolis effect).
+            </p>
+            
+            <a href="http://en.wikipedia.org/wiki/Sea">Read more on Wikipedia</a>
+        </div>
+        
+    </body>
+</html> -->
+
+<!-- Challenge: The boxer model
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: The boxer model</title>
+        <style>
+            body {
+                font-family: cursive;
+            }
+            .photo-gallery {
+                background: rgb(255, 254, 217);
+                border: 5px solid aqua;
+                padding: 12px;
+            }
+            .photo {
+                width: 200px;
+                padding: px;
+                border: 4px ridge red;
+                margin-left: 7px;
+                
+
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1>Boxers are beautiful?</h1>
+        
+        <div class="photo-gallery">
+        
+            <img class="photo" src="https://www.kasandbox.org/programming-images/animals/boxer-getting-tan.png">
+            
+            <img class="photo" src="https://www.kasandbox.org/programming-images/animals/boxer-laying-down.png">
+            
+            <img class="photo" src="https://www.kasandbox.org/programming-images/animals/boxer-wagging-tongue.png">
+            
+        </div>
+        
+    </body>
+</html> -->
