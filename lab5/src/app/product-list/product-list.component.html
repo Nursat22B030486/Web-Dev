@@ -1,0 +1,24 @@
+<h2>Category: {{category}}</h2>
+
+
+<div class="products" >
+  <div class="product" *ngFor="let product of products">
+    <img [src]="product.image" alt="Image of product">
+    <h3><a [routerLink]="['/products', product.category, product.id]"> {{product.name}}</a></h3>
+
+    <p *ngIf="product.description">Description: {{product.description}}</p>
+
+    <p>Rating: {{product.rating}} / 5</p>
+
+    <button type="button" (click)="comeIn(product)">
+      In Kaspi.kz
+    </button>
+
+    <button type="button" (click)="share(product)">
+      Share with...
+    </button>
+    <button class="like" (click)="like(product)"> Likes: {{product.like}}</button>
+
+    <button (click)="remove(product)">Remove</button>
+  </div>
+</div>

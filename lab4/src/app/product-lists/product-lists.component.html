@@ -1,0 +1,24 @@
+<p>PRODUCTS:</p>
+
+<!--<div class="products" >-->
+  <div class="product" *ngFor="let product of products">
+    <img [src]="product.imgUrl" alt="Image of product">
+    <h3>{{product.name}}</h3>
+
+    <p *ngIf="product.description">Description: {{product.description}}</p>
+
+    <p>Rating: {{product.rating}} / 5</p>
+
+    <button type="button" (click)="comeIn(product)">
+        In Kaspi.kz
+    </button>
+
+    <button type="button" (click)="share(product)">
+      Share with...
+    </button>
+    <app-product-alerts
+      [product]="product"
+      (notify) = "onNotify()">
+    </app-product-alerts>
+  </div>
+<!--</div>-->

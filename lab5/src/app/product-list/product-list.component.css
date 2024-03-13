@@ -1,0 +1,23 @@
+
+.products {
+  width : 400px;
+  display: inline-flex;
+  margin: 20px;
+}
+
+.product {
+  margin: 20px;
+}
+
+img{
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.like{
+  background-color: red;
+}

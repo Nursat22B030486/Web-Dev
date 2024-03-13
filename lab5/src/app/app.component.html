@@ -1,0 +1,14 @@
+<app-top-bar></app-top-bar>
+
+
+<ul >
+  <li *ngFor="let c of categories">
+    <a [routerLink]="['/products', c]"> {{c}}</a>
+  </li>
+</ul>
+
+<router-outlet></router-outlet>
+
+
+
+
