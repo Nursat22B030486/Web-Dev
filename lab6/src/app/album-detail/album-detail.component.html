@@ -1,0 +1,19 @@
+<div class="return-back">
+  <img src="assets/download.png" alt="returnBack" width="50px" [routerLink]="['/albums']">
+  <H3>RETURN BACK</H3>
+</div>
+
+<h2>ID: {{album.id}}<br>
+  <br> Name: {{album.title}} <img src="assets/edit.png" alt="edit" width="30px" (click)="canEdit()"></h2>
+
+
+<a [routerLink]="['/albums', album.id, 'photos']" [id]="album.id"> <button>Photos</button></a>
+
+
+<!--<fieldset *ngIf="edit">-->
+<!--  <input type="text" [(ngModel)]="updateAlbum.title">-->
+<!--  <button (click)="saveTitle(updateAlbum)">Save</button>-->
+<!--</fieldset>-->
+
+
+

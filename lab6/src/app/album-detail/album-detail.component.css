@@ -1,0 +1,23 @@
+h2 {
+  position: relative;
+  left: 50px;
+  top: 20px;
+}
+
+a{
+  position: relative;
+  left: 50px;
+  top: 20px;
+}
+
+.return-back {
+  display: inline-flex;
+  gap: 20px;
+}
+
+h2 img {
+  padding-left: 20px;
+}
+
+
+

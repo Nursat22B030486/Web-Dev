@@ -1,0 +1,9 @@
+<div class="return-back">
+  <img src="assets/download.png" alt="returnBack" width="50px" [routerLink]="['/albums', this.id]">
+  <H3>RETURN BACK</H3>
+</div>
+<br>
+
+<div class= "photo" *ngFor="let ph of photos">
+  <img src= "{{ph.url}}" alt="photo">
+</div>

@@ -1,0 +1,15 @@
+<div>
+
+  <ul *ngIf="this.loading; else newAlbumEmpty">
+    <li *ngFor="let album of albums">
+      <a [routerLink]="['/albums', album.id]">{{album.id}} -- {{album.title}}</a>
+      <button (click)="removeAlbum(album)">
+        <img src="./assets/remove_icon.png" alt="remove" width="8px">
+      </button>
+    </li>
+  </ul>
+  <ng-template #newAlbumEmpty>
+  <h1>Loading...</h1>
+  </ng-template>
+
+</div>
